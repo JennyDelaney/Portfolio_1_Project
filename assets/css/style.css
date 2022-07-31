@@ -64,45 +64,70 @@ h1, h2 {
     overflow: hidden;
 }
 
-#hero-outer h1 {
+#hero-outer h2 {
     text-align: center;
+    margin: 20px 0;
+    font-size: 200%;
 }
 
 #left-hero {
     padding-top: 30px;
     width: 33%;
-    float: left;
-    background-color: blue;  
+    float: left; 
 }
 
 #right-hero {
     padding-top: 30px;
     width: 33%;
     float: right;
-    background-color: silver;
 }
 
 #center-hero {
     width: 33%;
     margin: 0 auto;
-    background-color: green;
 }
 
-#cover-text {
-    font-size: 130%;
-    font-family: Roboto, sans-serif;
-    letter-spacing: 4px;
+hr {
+    border-top: 1px solid black;
+    width: 100%;
+    margin: 5px 0;
+}
 
+.left-hero-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-hero-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.right-hero-heading h3 {
+    text-align: right;
+}
+
+.right-hero-heading p {
+    text-align: right;
+}
+
+#square-container {
     width: 300px;
-    height: 200px;
+    height: 300px;
+    padding: 30px;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 1px;
+    margin: 0 auto;
+}
 
-    padding-top: 40px;
-    padding-left: 10px;
-
-    background-color: #3a3a3a
-
-    bottom: 30px;
-    right: 150px;
-
-    position: absolute;
+#square-cover-bg {
+    background: url(../images/Golf_Courses_around_Ireland.jpg) no-repeat center center;
+    height: 100%;
 }
