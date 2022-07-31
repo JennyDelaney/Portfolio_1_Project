@@ -9,4 +9,19 @@
 body {
     font-family: rubik, sans-serif;
     font-weight: 300;
+    color: black;
+    background-color: #96ADFC;
+}
+
+/* headings and logo */
+
+h1, h2 {
+    font-family: rubik, sans-serif;
+    letter-spacing: 4px;
+    color: black;
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
 }
