@@ -191,14 +191,14 @@ hr {
 /* footer */
 
 footer {
-    height: 75px;
+    height: 300px;
 }
 
 .social {
     text-align: center;
 }
 
-.social > li{
+.social > li {
     display: inline;
 }
 
