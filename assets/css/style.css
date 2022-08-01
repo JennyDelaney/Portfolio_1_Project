@@ -56,33 +56,36 @@ h1, h2 {
     border-bottom: 1px solid black;
 }
 
-/* hero image and cover text */
+/* hero image */
 
-#hero-outer {
-    height: 600px;
+
+/* Golf-Course setup and image */
+
+#golf-course-outer {
+    height: 500px;
     width: 100%;
     overflow: hidden;
 }
 
-#hero-outer h2 {
+#golf-course-outer h2 {
     text-align: center;
     margin: 20px 0;
     font-size: 200%;
 }
 
-#left-hero {
+#left-golf-course {
     padding-top: 30px;
     width: 33%;
     float: left; 
 }
 
-#right-hero {
+#right-golf-course {
     padding-top: 30px;
     width: 33%;
     float: right;
 }
 
-#center-hero {
+#center-golf-course {
     width: 33%;
     margin: 0 auto;
 }
@@ -93,7 +96,7 @@ hr {
     margin: 5px 0;
 }
 
-.left-hero-heading {
+.left-golf-course-heading {
     width: 60%;
     float: right;
     line-height: 20px;
@@ -101,7 +104,7 @@ hr {
     margin-bottom: 50px;
 }
 
-.right-hero-heading {
+.right-golf-course-heading {
     width: 60%;
     float: left;
     line-height: 20px;
@@ -109,11 +112,11 @@ hr {
     margin-bottom: 50px;
 }
 
-.right-hero-heading h3 {
+.right-golf-course-heading h3 {
     text-align: right;
 }
 
-.right-hero-heading p {
+.right-golf-course-heading p {
     text-align: right;
 }
 
