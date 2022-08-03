@@ -183,15 +183,41 @@ hr {
 #why-ireland p {
     color: white;
     font-weight: 700;
-    width: 66%;
+    width: 65%;
     margin-left: 30px;
     padding-bottom: 15px;
 }
 
+/* top 5 courses */
+
+#box-container {
+    box-sizing: border-box;
+    width: 80%;
+    min-height: 150px;
+    margin-left: 30px;
+    margin-right: 30px;
+    overflow: hidden;
+    background-color: #a2a2a2
+}
+
+.main-text {
+    width: 60%;
+    min-height: 150px;
+    color: white;
+    float: right;
+}
+
+.course-image {
+    width: 20%;
+    height: 150px;
+    float: left;
+}
+
+
 /* footer */
 
 footer {
-    height: 300px;
+    height: 150px;
 }
 
 .social {
