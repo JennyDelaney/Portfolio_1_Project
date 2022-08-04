@@ -162,6 +162,7 @@ hr {
 }
 
 /* Why Choose Ireland */
+
 #why-ireland {
     background-image: url(../images/Why-choose-ireland-background.jpg);
     background-repeat: no-repeat;
@@ -249,4 +250,16 @@ hr {
 
 .main-text p {
     padding-top: 5px;
+}
+
+/* Relook top 5 Courses */
+
+#top2-container {
+    display: flex;
+    clear: both;
+    background-color: #50a149;
+}
+
+#bottom-container {
+    display: flex;
 }
