@@ -255,6 +255,7 @@ hr {
 /* Relook top 5 Courses */
 
 #top2-container {
+    column-count: 2;
     display: flex;
     clear: both;
     background-color: #50a149;
