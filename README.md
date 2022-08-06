@@ -14,7 +14,7 @@ Design
 # Colour Scheme
 The two main colours used are green or white background with black or white font.
 # Typography
-I am currently using the Montserrat font throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
+I am currently using the rubik font throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Rubik is a clean font, so it is both attractive and appropriate.
 # Imagery
 Imagery is important. All images will be golf related and reflect the great scenery that is given to every golfer when they play a round of golf in Ireland.
 # Features:
@@ -29,3 +29,5 @@ Wireframe - https://www.dropbox.com/s/9ntjkweyv5a0bo7/Portfolio%201%20-%20Top%20
 A list of what is currently conisdered the top five golf courses in Ireland.
 ## Third Page -
 A newsletter sign up page so that people can be kept informed of the latest list of courses and any offers that might be available through the clubs.
+## Issues:
+Initial home page had the Golf Courses around Ireland set up at the top of the home page. However, upon review of the page this looked flat so I added a hero image with a small bit of animation.
