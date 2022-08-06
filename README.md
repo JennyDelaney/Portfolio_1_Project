@@ -1,21 +1,21 @@
 # Top Golf Ireland
 Top Golf Ireland is a site that gives a list of what is considered Ireland's top 5 golf courses.  It outlines some of the reasons as to why someone should pick Ireland for their next golfing holiday as well as what Ireland has to offer in the types of courses.  It is a list of courses that someone should try and get to play if they get the opportunity.
-# First Time Visitor Goals
-As a First Time Visitor, I want to easily understand the main purpose of the site and learn about golf courses in Ireland.
-As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
-As a First Time Visitor, I want to be able to identify the top golf courses which I should try and visit in Ireland.
-# Returning Visitor Goals
-As a Returning Visitor, I want to see if the top 5 golf courses have changed in Ireland.
-As a Returning Visitor, I want to find an easy way to make contact with the top 5 courses to be able to book a round.
-# Frequent User Goals
-As a Frequent User, I want to check to see if there are any newly added courses to the website.
-As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the courses available around Ireland.
-Design
-# Colour Scheme
+## First Time Visitor Goals
+1. As a First Time Visitor, I want to easily understand the main purpose of the site and learn about golf courses in Ireland.
+2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+3. As a First Time Visitor, I want to be able to identify the top golf courses which I should try and visit in Ireland.
+## Returning Visitor Goals
+1. As a Returning Visitor, I want to see if the top 5 golf courses have changed in Ireland.
+2. As a Returning Visitor, I want to find an easy way to make contact with the top 5 courses to be able to book a round.
+## Frequent User Goals
+1. As a Frequent User, I want to check to see if there are any newly added courses to the website.
+2. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the courses available around Ireland.
+# Design
+## Colour Scheme
 The two main colours used are green or white background with black or white font.
-# Typography
+## Typography
 I am currently using the rubik font throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Rubik is a clean font, so it is both attractive and appropriate.
-# Imagery
+## Imagery
 Imagery is important. All images will be golf related and reflect the great scenery that is given to every golfer when they play a round of golf in Ireland.
 # Features:
 Wireframe - https://www.dropbox.com/s/9ntjkweyv5a0bo7/Portfolio%201%20-%20Top%20Golf%20Ireland.bmpr?dl=0
