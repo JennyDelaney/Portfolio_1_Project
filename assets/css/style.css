@@ -216,6 +216,8 @@ footer {
     width: 100%;
     overflow: hidden;
     background-color: #50a149;
+    box-shadow: 0.25rem 0.25rem 0.6rem;
+    margin: 15px;
 }
 
 #box-container div {
@@ -275,6 +277,7 @@ footer {
     position: absolute;
     right: 10%;
     padding: 30px;
+    box-shadow: 0.25rem 0.25rem 0.6rem;
 }
 
 .signup-form > h2 {
