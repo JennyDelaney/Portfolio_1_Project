@@ -215,7 +215,7 @@ footer {
 #box-container {
     width: 100%;
     overflow: hidden;
-    background-color: #50a149;
+    background-color: #bcdcb9;
     box-shadow: 0.25rem 0.25rem 0.6rem;
     margin: 15px;
 }
@@ -269,7 +269,7 @@ footer {
     height: 600px;
 }
 
-.signup-form {
+.newsletter-form {
     margin: 75px 10% 0 0;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
@@ -280,7 +280,7 @@ footer {
     box-shadow: 0.25rem 0.25rem 0.6rem;
 }
 
-.signup-form > h2 {
+.newsletter-form > h2 {
     color: #fafafa;
     margin-bottom: 20px;
 }
