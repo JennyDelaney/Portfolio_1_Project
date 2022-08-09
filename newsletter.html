@@ -32,7 +32,32 @@
             </ul>
         </nav>
     </header>
-    
+    <section class="form-section">
+        <form class="signup-form" action="https://formdump.codeinstitute.net/" method="post">
+            <h2>Keep informed on the latest Top Golf Courses in Ireland</h2>
+            <label for="fname">First Name</label>
+            <input class="text-input" id="fname" type="text" name="first_name" required/>
+            
+            <label for="lname">Last Name</label>
+            <input class="text-input" id="lname" type="text" name="last_name" required/>
+            
+            <label for="email">Email Address</label>
+            <input class="text-input" id="email" type="email" name="email_address" required/>
+            
+            <h3>Favourite type of Course:</h3>
+            <label for="links">Links Course</label>
+            <input id="links" type="radio" name="course_preference" value="links" required>
+            
+            <label for="parkland">Parkland Course</label>
+            <input id="parkland" type="radio" name="course_preference" value="parkland">
+            
+            <label for="both">Both</label>
+            <input id="both" type="radio" name="course_preference" value="both">
+                 
+            <input class="join-button" type="submit" value="Keep me informed!"/>
+            
+        </form>
+    </section>
     <footer>
         <ul class="social">
             <li>
