@@ -216,7 +216,7 @@ footer {
 .box-container-top {
     width: 100%;
     overflow: hidden;
-    background-color: #bcdcb9;
+    background-color: #50a149;
     box-shadow: 0.25rem 0.25rem 0.6rem;
     margin: 15px;
     display: grid;
@@ -232,7 +232,7 @@ footer {
 .box-container-bottom {
     width: 100%;
     overflow: hidden;
-    background-color: #bcdcb9;
+    background-color: #50a149;
     box-shadow: 0.25rem 0.25rem 0.6rem;
     margin: 15px;
     display: grid;
@@ -243,18 +243,6 @@ footer {
 
 .box-container-bottom h2 {
     padding-bottom: 15px;
-}
-
-/* Relook top 5 Courses */
-
-#top2-container {
-    display: flex;
-    clear: both;
-    background-color: #50a149;
-}
-
-#bottom-container {
-    display: flex;
 }
 
 /* Newsletter */
