@@ -249,7 +249,7 @@ footer {
 
 .form-section {
     clear: left;
-    background-image: url("/assets/images/newsletter-background.jpg");
+    background-image: url(../images/newsletter-background.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
