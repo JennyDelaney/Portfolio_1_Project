@@ -216,33 +216,39 @@ footer {
 .box-container-top {
     width: 100%;
     overflow: hidden;
-    background-color: #50a149;
-    box-shadow: 0.25rem 0.25rem 0.6rem;
-    margin: 15px;
+    background-color: #white;
+    margin: 5px;
     display: grid;
     grid-template-columns: 50% 50%;
     padding: 15px;
     text-align: center;
+    gap: 15px;
+}
+
+.course-image {
+    background-color: #50a149;
+    box-shadow: 0.25rem 0.25rem 0.6rem;
+    padding: 15px;
 }
 
 .box-container-top h2 {
-    padding-bottom: 15px;
+    padding: 15px;
 }
 
 .box-container-bottom {
     width: 100%;
     overflow: hidden;
-    background-color: #50a149;
-    box-shadow: 0.25rem 0.25rem 0.6rem;
-    margin: 15px;
+    background-color: #white;
+    margin: 5px;
     display: grid;
     grid-template-columns: 33% 33% 33%;
     padding: 15px;
     text-align: center;
+    gap: 15px;
 }
 
 .box-container-bottom h2 {
-    padding-bottom: 15px;
+    padding: 15px;
 }
 
 /* Newsletter */
@@ -371,5 +377,13 @@ hr {
     width: 250px;
     padding: 0;
 }
+
+.box-container-top, .box-container-bottom {
+    grid-template-columns: 100%;
+    height: 100%;
+    padding: 0;
 }
 
+}
+
+    
