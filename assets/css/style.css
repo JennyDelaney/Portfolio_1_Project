@@ -164,7 +164,7 @@ hr {
 
 /* Why Choose Ireland */
 
-#why-ireland {
+.why-ireland {
     background-image: url(../images/Why-choose-ireland-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -174,7 +174,7 @@ hr {
     overflow: hidden;
 }
 
-#why-ireland h2 {
+.why-ireland h2 {
     color: white;
     font-size: 280%;
     padding-top: 15px;
@@ -182,7 +182,7 @@ hr {
     margin-left: 30px;
 }
 
-#why-ireland p {
+.why-ireland p {
     color: white;
     font-weight: 700;
     width: 65%;
@@ -216,7 +216,7 @@ footer {
 .box-container-top {
     width: 100%;
     overflow: hidden;
-    background-color: #white;
+    background-color: white;
     margin: 5px;
     display: grid;
     grid-template-columns: 50% 50%;
@@ -233,12 +233,13 @@ footer {
 
 .box-container-top h2 {
     padding: 15px;
+    text-decoration: underline;
 }
 
 .box-container-bottom {
     width: 100%;
     overflow: hidden;
-    background-color: #white;
+    background-color: white;
     margin: 5px;
     display: grid;
     grid-template-columns: 33% 33% 33%;
@@ -249,6 +250,7 @@ footer {
 
 .box-container-bottom h2 {
     padding: 15px;
+    text-decoration: underline;
 }
 
 /* Newsletter */
@@ -315,8 +317,10 @@ footer {
     
 .golf-course-outer {
     width: 65%;
-    height: 850px;
+    height: 100%;
     margin: 0 auto;
+    float: none;
+    padding-bottom: 30px;
 }
 
 .golf-course-outer h2 {
@@ -355,8 +359,10 @@ hr {
 
 .golf-course-outer {
     width: 90%;
-    height: 1000px;
+    height: 100%;
     margin: 0 auto;
+    float: none;
+    padding-bottom: 30px;
 }
 
 .left-golf-course, .right-golf-course {
@@ -376,6 +382,7 @@ hr {
 .square-cover-bg {
     width: 250px;
     padding: 0;
+    margin: 0 auto;
 }
 
 .box-container-top, .box-container-bottom {
@@ -384,6 +391,9 @@ hr {
     padding: 0;
 }
 
+.why-ireland {
+    height: 100%;
+}
 }
 
     
