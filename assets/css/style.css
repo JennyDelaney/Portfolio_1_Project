@@ -33,7 +33,7 @@ h1, h2 {
     letter-spacing: 4px;
 }
 
-.menu, #logo {
+.menu, .logo {
     line-height: 75px;
 }
 
@@ -338,6 +338,7 @@ footer {
     width: 100%;
     float: left;
     padding: 0;
+    border: none;
 }
 
 hr {
@@ -366,7 +367,14 @@ hr {
 }
 
 .left-golf-course, .right-golf-course {
-    width: inherit;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.left-golf-course-heading, .right-golf-course-heading {
+    width: 100%;
 }
 
 .left-golf-course h3, .right-golf-course h3 {
@@ -379,8 +387,10 @@ hr {
     padding: 0 20px;
 }
 
-.square-cover-bg {
-    width: 250px;
+.center-golf-course {
+    width: 100%;
+}
+.square-container {
     padding: 0;
     margin: 0 auto;
 }
