@@ -174,20 +174,23 @@ hr {
     overflow: hidden;
 }
 
-.why-ireland h2 {
-    color: white;
-    font-size: 280%;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    margin-left: 30px;
+.why-ireland-text {
+    width: 55%;
+    float: left;
+    margin: 50px;
+    color: #50a149;
+    font-weight: 600;
+    padding: 20px;
+    letter-spacing: 4px;
+    background-color:rgba(237, 243, 236, 0.9)
 }
 
-.why-ireland p {
-    color: white;
-    font-weight: 700;
-    width: 65%;
-    margin-left: 30px;
-    padding-bottom: 15px;
+.why-ireland-text h2 {
+    color: #50a149;
+    font-weight: bold;
+    padding: 5px;
+    margin-bottom: 25px;
+    text-align: center;
 }
 
 /* footer */
