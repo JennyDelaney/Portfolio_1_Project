@@ -20,7 +20,7 @@ h1, h2 {
     color: black;
 }
 
-#logo {
+.logo {
     float: left;
     font-size: 280%;
     margin-left: 30px;
@@ -28,27 +28,27 @@ h1, h2 {
 
 /* Navigation list */
 
-#menu {
+.menu {
     font-size: 120%;
     letter-spacing: 4px;
 }
 
-#menu, #logo {
+.menu, #logo {
     line-height: 75px;
 }
 
-#menu li {
+.menu li {
     float: right;
     list-style-type: none;
     margin-right: 20px;
 }
 
-#menu a {
+.menu a {
     text-decoration: none;
     color: inherit;
 }
 
-#menu a:hover {
+.menu a:hover {
     border-bottom: 1px solid black;
 }
 
@@ -58,13 +58,13 @@ h1, h2 {
 
 /* hero image */
 
-#hero-outer {
+.hero-outer {
     height: 600px;
     width: 100%;
     overflow: hidden;
 }
 
-#hero-image {
+.hero-image {
     height: 600px;
     width: 100%;
     background: url(../images/hero-image.jpg) no-repeat center center;
