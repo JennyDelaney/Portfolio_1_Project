@@ -220,22 +220,48 @@ footer {
     width: 100%;
     overflow: hidden;
     background-color: white;
-    margin: 5px;
     display: grid;
+    margin-right: 15px;
+    grid-template-rows: 375px;
     grid-template-columns: 50% 50%;
     padding: 15px;
     text-align: center;
     gap: 15px;
 }
 
-.course-image {
+.course-image-1 {
+    background: url(../images/ballybunion-old-golf-course.jpg);
+    background-size: cover;
     background-color: #50a149;
     box-shadow: 0.25rem 0.25rem 0.6rem;
     padding: 15px;
+    position: relative;
+}
+
+.course-image-2 {
+    background: url(../images/lahinch-old-golf-course.jpg);
+    background-size: cover;
+    background-color: #50a149;
+    box-shadow: 0.25rem 0.25rem 0.6rem;
+    padding: 15px;
+    position: relative;
+}
+
+.course-info {
+    height: 180px;
+    width: 300px;
+    position: absolute;
+    left: 50%;
+    bottom: 15px;
+    transform: translate(-50%, 0);
+    margin: 0 auto;
+    background-color: rgba(237, 243, 236, 0.4);
+    justify-content: center;
+    padding: 3px;
 }
 
 .box-container-top h2 {
-    padding: 15px;
+    padding: 10px;
     text-decoration: underline;
 }
 
@@ -243,17 +269,44 @@ footer {
     width: 100%;
     overflow: hidden;
     background-color: white;
-    margin: 5px;
     display: grid;
+    margin-right: 15px;
+    grid-template-rows: 375px;
     grid-template-columns: 33% 33% 33%;
-    padding: 15px;
+    padding: 10px;
     text-align: center;
     gap: 15px;
 }
 
 .box-container-bottom h2 {
-    padding: 15px;
+    padding: 5px;
     text-decoration: underline;
+}
+
+.course-image-3 {
+    background: url(../images/rosapenna-st-patricks.jpg);
+    background-size: cover;
+    background-color: #50a149;
+    box-shadow: 0.25rem 0.25rem 0.6rem;
+    padding: 15px;
+    position: relative;
+}
+.course-image-4 {
+    background: url(../images/portmarnock-championship-golf-course.jpg);
+    background-size: cover;
+    background-color: #50a149;
+    box-shadow: 0.25rem 0.25rem 0.6rem;
+    padding: 15px;
+    position: relative;
+}
+
+.course-image-5 {
+    background: url(../images/european-club-golf-course.jpg);
+    background-size: cover;
+    background-color: #50a149;
+    box-shadow: 0.25rem 0.25rem 0.6rem;
+    padding: 15px;
+    position: relative;
 }
 
 /* Newsletter */
@@ -318,7 +371,16 @@ footer {
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
     
-.golf-course-outer {
+    #menu {
+    clear: left;
+    float: left;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    line-height: 25px;
+    letter-spacing: 2px;
+}
+
+    .golf-course-outer {
     width: 65%;
     height: 100%;
     margin: 0 auto;
@@ -351,15 +413,6 @@ hr {
 
 /* For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
-
-#menu {
-    clear: left;
-    float: left;
-    margin-left: 15px;
-    margin-bottom: 20px;
-    line-height: 25px;
-    letter-spacing: 2px;
-}
 
 .golf-course-outer {
     width: 90%;
@@ -400,8 +453,12 @@ hr {
 
 .box-container-top, .box-container-bottom {
     grid-template-columns: 100%;
-    height: 100%;
     padding: 0;
+}
+
+.course-image-1, .course-image-2, .course-image-3, .course-image-4, .course-image-5 {
+    height: 375px;
+    width: 100%;
 }
 
 .why-ireland {
