@@ -67,7 +67,7 @@ h1, h2 {
 .hero-image {
     height: 600px;
     width: 100%;
-    background: url(../images/hero-image.jpg) no-repeat center center;
+    background: url(../images/hero-image.webp) no-repeat center center;
     background-size: cover;
 
     /* animation zoom effect on loading page */
@@ -165,7 +165,7 @@ hr {
 /* Why Choose Ireland */
 
 .why-ireland {
-    background-image: url(../images/Why-choose-ireland-background.jpg);
+    background-image: url(../images/Why-choose-ireland-background.webp);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -175,14 +175,14 @@ hr {
 }
 
 .why-ireland-text {
-    width: 55%;
+    width: 50%;
     float: left;
     margin: 50px;
     color: #50a149;
     font-weight: 600;
     padding: 20px;
     letter-spacing: 4px;
-    background-color:rgba(237, 243, 236, 0.9)
+    background-color:rgba(237, 243, 236, 0.8)
 }
 
 .why-ireland-text h2 {
@@ -230,7 +230,7 @@ footer {
 }
 
 .course-image-1 {
-    background: url(../images/ballybunion-old-golf-course.jpg);
+    background: url(../images/ballybunion-old-golf-course.webp);
     background-size: cover;
     background-color: #50a149;
     box-shadow: 0.25rem 0.25rem 0.6rem;
@@ -239,7 +239,7 @@ footer {
 }
 
 .course-image-2 {
-    background: url(../images/lahinch-old-golf-course.jpg);
+    background: url(../images/lahinch-old-golf-course.webp);
     background-size: cover;
     background-color: #50a149;
     box-shadow: 0.25rem 0.25rem 0.6rem;
@@ -284,7 +284,7 @@ footer {
 }
 
 .course-image-3 {
-    background: url(../images/rosapenna-st-patricks.jpg);
+    background: url(../images/rosapenna-st-patricks.webp);
     background-size: cover;
     background-color: #50a149;
     box-shadow: 0.25rem 0.25rem 0.6rem;
@@ -292,7 +292,7 @@ footer {
     position: relative;
 }
 .course-image-4 {
-    background: url(../images/portmarnock-championship-golf-course.jpg);
+    background: url(../images/portmarnock-championship-golf-course.webp);
     background-size: cover;
     background-color: #50a149;
     box-shadow: 0.25rem 0.25rem 0.6rem;
@@ -301,7 +301,7 @@ footer {
 }
 
 .course-image-5 {
-    background: url(../images/european-club-golf-course.jpg);
+    background: url(../images/european-club-golf-course.webp);
     background-size: cover;
     background-color: #50a149;
     box-shadow: 0.25rem 0.25rem 0.6rem;
@@ -313,7 +313,7 @@ footer {
 
 .form-section {
     clear: left;
-    background-image: url(../images/newsletter-background.jpg);
+    background-image: url(../images/newsletter-background.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
