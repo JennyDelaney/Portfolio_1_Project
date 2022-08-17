@@ -52,6 +52,10 @@ h1, h2 {
     border-bottom: 1px solid black;
 }
 
+.hamnav label, #hamburger {
+    display: none;
+}
+
 .active {
     border-bottom: 1px solid black;
 }
@@ -370,7 +374,7 @@ footer {
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
     
-    #menu {
+    .menu {
     clear: left;
     float: left;
     margin-left: 15px;
@@ -469,4 +473,29 @@ hr {
 }
 }
 
-    
+/* For medium screen sizes from 400px wide and down */
+@media screen and (max-width: 400px) {
+
+.menu a {
+    box-sizing: border-box;
+    display: block;
+    width: 100%;
+    border-top: 1px solid #333;
+}
+
+.hamnav label {
+    display: inline-block;
+    color: white;
+    background: #50a149;
+    font-style: normal;
+    font-size: 1.2em;
+    padding: 10px;
+}
+
+.menu {
+    display: none;
+}
+
+.hamnav input:checked ~ menu {display: block;}
+
+}
