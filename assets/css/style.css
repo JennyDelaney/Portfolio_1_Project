@@ -31,6 +31,8 @@ h1, h2 {
 .menu {
     font-size: 120%;
     letter-spacing: 4px;
+    display: flex;
+    float: right;
 }
 
 .menu, .logo {
@@ -234,7 +236,7 @@ footer {
 }
 
 .course-image-1 {
-    background: url(../images/ballybunion-old-golf-course.webp);
+    background: url(/assets/images/ballybunion-old-golf-course.webp);
     background-size: cover;
     background-color: #50a149;
     box-shadow: 0.25rem 0.25rem 0.6rem;
@@ -243,7 +245,7 @@ footer {
 }
 
 .course-image-2 {
-    background: url(../images/lahinch-old-golf-course.webp);
+    background: url(/assets/images/lahinch-old-golf-course.webp);
     background-size: cover;
     background-color: #50a149;
     box-shadow: 0.25rem 0.25rem 0.6rem;
@@ -288,7 +290,7 @@ footer {
 }
 
 .course-image-3 {
-    background: url(../images/rosapenna-st-patricks.webp);
+    background: url(/assets/images/rosapenna-st-patricks.webp);
     background-size: cover;
     background-color: #50a149;
     box-shadow: 0.25rem 0.25rem 0.6rem;
@@ -296,7 +298,7 @@ footer {
     position: relative;
 }
 .course-image-4 {
-    background: url(../images/portmarnock-championship-golf-course.webp);
+    background: url(/assets/images/portmarnock-championship-golf-course.webp);
     background-size: cover;
     background-color: #50a149;
     box-shadow: 0.25rem 0.25rem 0.6rem;
@@ -305,7 +307,7 @@ footer {
 }
 
 .course-image-5 {
-    background: url(../images/european-club-golf-course.webp);
+    background: url(/assets/images/european-club-golf-course.webp);
     background-size: cover;
     background-color: #50a149;
     box-shadow: 0.25rem 0.25rem 0.6rem;
@@ -317,7 +319,7 @@ footer {
 
 .form-section {
     overflow: hidden;
-    background: url(../images/newsletter-background.webp);
+    background: url(/assets/images/newsletter-background.webp);
     background-position: center;
     height: 750px;
     width: 100%;
@@ -351,6 +353,12 @@ footer {
 
 .text-input:hover {
     border-color: #50a149;
+}
+
+.course-favourite {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
 }
 
 .join-button {
@@ -475,6 +483,10 @@ hr {
 
 /* For medium screen sizes from 400px wide and down */
 @media screen and (max-width: 400px) {
+
+.menu {
+    display: block;
+}
 
 .menu a {
     box-sizing: border-box;

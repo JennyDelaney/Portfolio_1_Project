@@ -15,16 +15,18 @@
         <a href="index.html">
             <h1 class="logo">Top Golf Ireland</h1>
         </a>
-        <nav>
+        <nav class="hamnav">
+            <label for="hamburger">&#9776</label>
+            <input type="checkbox" id="hamburger"/>
             <ul class="menu">
                 <li>
-                    <a href="newsletter.html" class="active">Newsletter</a>
+                    <a href="index.html">Home</a>
                 </li>
                 <li>
                     <a href="top_5_courses.html">Top 5 Courses</a>
                 </li>
                 <li>
-                    <a href="index.html">Home</a>
+                    <a href="newsletter.html" class="active">Newsletter</a>
                 </li>                
             </ul>
         </nav>
@@ -41,16 +43,19 @@
             <label for="email">Email Address</label>
             <input class="text-input" id="email" type="email" name="email_address" required/>
             
-            <h3>Favourite type of Course:</h3>
+            <h3>Favourite type of Course:</h3>            
+            <div class="course-favourite">
             <label for="links">Links Course</label>
             <input id="links" type="radio" name="course_preference" value="links" required>
-            
+            </div>
+            <div class="course-favourite">
             <label for="parkland">Parkland Course</label>
             <input id="parkland" type="radio" name="course_preference" value="parkland">
-            
+            </div>
+            <div class="course-favourite">
             <label for="both">Both</label>
             <input id="both" type="radio" name="course_preference" value="both">
-                 
+            </div>
             <input class="join-button" type="submit" value="Keep me informed!"/>
         </form>
     </section>
