@@ -312,12 +312,11 @@ footer {
 /* Newsletter */
 
 .form-section {
-    clear: left;
-    background-image: url(../images/newsletter-background.webp);
-    background-size: cover;
+    overflow: hidden;
+    background: url(../images/newsletter-background.webp);
     background-position: center;
-    background-repeat: no-repeat;
-    height: 900px;
+    height: 750px;
+    width: 100%;
 }
 
 .newsletter-form {
@@ -463,6 +462,10 @@ hr {
 
 .why-ireland {
     height: 100%;
+}
+
+.newsletter-form {
+    margin-left: 30px;
 }
 }
 
