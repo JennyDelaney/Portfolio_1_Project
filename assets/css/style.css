@@ -227,10 +227,10 @@ footer {
     overflow: hidden;
     background-color: white;
     display: grid;
-    margin-right: 15px;
+    margin-right: 5px;
     grid-template-rows: 375px;
     grid-template-columns: 50% 50%;
-    padding: 15px;
+    padding: 10px;
     text-align: center;
     gap: 15px;
 }
@@ -267,7 +267,7 @@ footer {
 }
 
 .box-container-top h2 {
-    padding: 10px;
+    padding: 5px;
     text-decoration: underline;
 }
 
@@ -464,12 +464,17 @@ hr {
 
 .box-container-top, .box-container-bottom {
     grid-template-columns: 100%;
-    padding: 0;
+    padding: 5px;
+    gap: 5px;
+    margin: 0, auto;
 }
 
 .course-image-1, .course-image-2, .course-image-3, .course-image-4, .course-image-5 {
-    height: 375px;
+    height: 380px;
     width: 100%;
+    margin: 0 auto;
+    gap: 5px;
+    padding: 5px;
 }
 
 .why-ireland {
@@ -478,6 +483,7 @@ hr {
 
 .newsletter-form {
     margin-left: 30px;
+    margin-right: 15px;
 }
 }
 
