@@ -176,6 +176,7 @@ A large amount of testing was done to ensure that all pages were linking correct
 Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### Known Bug
+The images on Top 5 Courses page merged and lost its gap when reduced under 950px. The fix was to add a new height to the course-images to give this gap.
 The hamburger menu style implements when looking at it from a device screen of less than 450px however for some reason the drop-down list of items will not appear.   Tried to figure out the bug but couldn't.
 
 ## Deployment
