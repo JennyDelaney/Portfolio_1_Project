@@ -1,10 +1,10 @@
 # Top Golf Ireland
 
-#### Link to live project: https://jennydelaney.github.io/Portfolio_1_Project/Link
+#### Link to live project: https://jennydelaney.github.io/Portfolio_1_Project/
 
 Top Golf Ireland is a site that gives a list of what is considered Ireland's top 5 golf courses.  It outlines some of the reasons as to why someone should pick Ireland for their next golfing holiday as well as what Ireland has to offer in the types of courses.  It is a list of courses that someone should try and get to play if they get the opportunity.
 
-![Common Screen Sizes](https://github.com/JennyDelaney/Portfolio_1_Project/blob/main/assets/images/common-screen-sizes.jpg)
+![Common Screen Sizes](/workspace/Portfolio_1_Project/assets/readme-images/common-screen-sizes.jpg)
 
 # User Experience (UX)
 ## -  User stories
@@ -33,31 +33,47 @@ All images are golf related and reflect the great scenery that is given to every
 
 - #### Wireframe -
 
-![Wireframe Images](https://github.com/JennyDelaney/Portfolio_1_Project/blob/main/assets/images/Wireframe-image.jpg)
+![Wireframe Images](/workspace/Portfolio_1_Project/assets/readme-images/Wireframe-image.jpg)
 
-- #### Main Page -  ** still needs to be completed **
+#### Main Page -
 - Navigation bar
-** Image of navigation bar **
+
+![Navigation Bar](/workspace/Portfolio_1_Project/assets/readme-images/navbar.jpg)
+A clean display showing the title and the 3 pages.
 
 - Golf Courses around Ireland and a list of some reasons to play in Ireland
 
+![Courses Around Ireland](/workspace/Portfolio_1_Project/assets/readme-images/course-around-image.jpg)
+A visual image of the courses avilable around the country as well as the types of courses we have and reasons to play.
+
 - Why choose Ireland?
+
+![Why choose Ireland](/workspace/Portfolio_1_Project/assets/readme-images/why-choose-ireland.jpg)
+Additional reasons why golfing in Ireland can give an experience of a lifetime.
 
 - List of social media pages
 
-- #### Second Page -
+![Social Media Image](/workspace/Portfolio_1_Project/assets/readme-images/social-media.jpg)
+Social media links to all of the platforms available to keep the user updated.
+
+#### Second Page -
 A list of what is currently conisdered the top five golf courses in Ireland.
 
-- #### Third Page -
+![Top 5 Courses](/workspace/Portfolio_1_Project/assets/readme-images/top-5-courses.jpg)
+A screenshot of what are considered the top 5 courses available in Ireland.
+
+#### Third Page -
 A newsletter sign up page so that people can be kept informed of the latest list of courses and any offers that might be available through the clubs.
+
+![Newsletter](/workspace/Portfolio_1_Project/assets/readme-images/newsletter.jpg)
+A screenshot of the newsletter sign up sheet to keep updated on what are the most popular golf courses.
 
 ## Issues:
 Initial home page had the Golf Courses around Ireland set up at the top of the home page. However, upon review of the page this looked flat so I added a hero image with a small bit of animation.
 
-Features
+## Features:
 Responsive on all device sizes
 
-Interactive elements
 
 ## Technologies Used
 ### Languages Used
@@ -108,13 +124,14 @@ Outcome - , was removed.
 
 #### Lighthouse test - Results
 Inital testing of website gave the following results - 
-** insert inital image **
+![Lighthouse](/workspace/Portfolio_1_Project/assets/readme-images/Lighthouse-test-1.jpg)
 
-Outcome - I made adjustments to the images I was using by changing them over to webp images.
+Test was run incognito. Results outlined that images were taking too long to load and it was suggested to change them over to webp or compress the images.
 
 Second test gave the following results - 
-86 performance and 100 on everything else.  I did it incognito but have a lot running on my laptop so I will run again tomorrow when I have everything closed.  Images might still need to be compressed which will help.
-
+![Lighthouse Test No2](/workspace/Portfolio_1_Project/assets/readme-images/lighthouse-test-2.jpg)
+  
+Second Test run incognito.  Images were changed to webp versions which was the main problem for the performance of the first test.
 
 ## Testing User Stories from User Experience (UX) Section
 
@@ -124,31 +141,37 @@ Second test gave the following results -
 Upon entering the site, users are automatically greeted with a clean and easily readable navigation bar to go to the page of their choice. The first image gives them a great idea of the scenery which they can experience while playing a round of golf in Ireland. When they scroll down the main page it brings them a list of the types of courses we have available, how many courses we have, and some reasons to encourage them to play a round of golf in Ireland.
 
 2. As a First Time Visitor, I want to be able to easily navigate throughout the site to find content.
+
 The site has been designed to be fluid and never to entrap the user. At the top of each page there is a clean navigation bar, each link describes what the page they will end up at clearly.
 The user can also scroll to the bottom of any page on the site to locate social media links in the footer.
 
 3. As a First Time Visitor, I want to be able to identify the top golf courses which I should try and visit in Ireland.
+
 The site gives clear details of course name, address, phone number and website link of the top 5 golf courses in Ireland which will allow a golfer to find the best golf clubs to play.
 
 #### Returning Visitor Goals
 1. As a Returning Visitor, I want to see if the top 5 golf courses have changed in Ireland.
+
 These would be clearly shown in a banner message.
 They will be directed to the top 5 courses page with another hero image and call to action.
 
 2. As a Returning Visitor, I want to find an easy way to make contact with the top 5 courses to be able to book a round.
+
 A clear image is against every course which gives the user all of the required courses details.
 
 #### Frequent User Goals
 1. As a Frequent User, I want to check to see if there are any newly added courses to the website.
+
 The user would already be comfortable with the website layout and can easily click the banner message.
 
 2. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the courses available around Ireland.
+
 The user would already be comfortable with the website layout and can easily click the newsletter registration link.
 At the bottom of every page their is a footer which content is consistent throughout all pages.
 
 ## Further Testing
-The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
-The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+The Website was tested on Google Chrome, Microsoft Edge and Safari browsers.
+The website was viewed on a variety of devices such as Desktop, Laptop, iPhone 6 & iPhone 8.
 A large amount of testing was done to ensure that all pages were linking correctly.
 Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
@@ -188,10 +211,13 @@ Click Here to retrieve pictures for some of the buttons and more detailed explan
 
 ## Content
 All content was written by the developer.
-Psychological properties of colours text in the README.md was found here
+
+Some of the template methodologies were used from the Love Running project walkthough but the developer tried to make most of it their own.
 
 ## Media
 Images were obtained through pexels.com or sourced through free images available on the internet.
 
 ## Acknowledgements
 My Mentor for continuous helpful feedback.
+
+Kenan, my cohort faciliator, for helping when I thought I had conflicts when trying to push from gitpod to github on the second last day.
