@@ -4,7 +4,7 @@
 
 Top Golf Ireland is a site that gives a list of what is considered Ireland's top 5 golf courses.  It outlines some of the reasons as to why someone should pick Ireland for their next golfing holiday as well as what Ireland has to offer in the types of courses.  It is a list of courses that someone should try and get to play if they get the opportunity.
 
-![Common Screen Sizes](/workspace/Portfolio_1_Project/assets/readme-images/common-screen-sizes.jpg)
+![Common Screen Sizes](/assets/readme-images/common-screen-sizes.jpg)
 
 # User Experience (UX)
 ## -  User stories
@@ -33,39 +33,39 @@ All images are golf related and reflect the great scenery that is given to every
 
 - #### Wireframe -
 
-![Wireframe Images](/workspace/Portfolio_1_Project/assets/readme-images/Wireframe-image.jpg)
+![Wireframe Images](/assets/readme-images/Wireframe-image.jpg)
 
 #### Main Page -
 - Navigation bar
 
-![Navigation Bar](/workspace/Portfolio_1_Project/assets/readme-images/navbar.jpg)
+![Navigation Bar](/assets/readme-images/navbar.jpg)
 A clean display showing the title and the 3 pages.
 
 - Golf Courses around Ireland and a list of some reasons to play in Ireland
 
-![Courses Around Ireland](/workspace/Portfolio_1_Project/assets/readme-images/course-around-image.jpg)
+![Courses Around Ireland](/assets/readme-images/course-around-image.jpg)
 A visual image of the courses avilable around the country as well as the types of courses we have and reasons to play.
 
 - Why choose Ireland?
 
-![Why choose Ireland](/workspace/Portfolio_1_Project/assets/readme-images/why-choose-ireland.jpg)
+![Why choose Ireland](/assets/readme-images/why-choose-ireland.jpg)
 Additional reasons why golfing in Ireland can give an experience of a lifetime.
 
 - List of social media pages
 
-![Social Media Image](/workspace/Portfolio_1_Project/assets/readme-images/social-media.jpg)
+![Social Media Image](/assets/readme-images/social-media.jpg)
 Social media links to all of the platforms available to keep the user updated.
 
 #### Second Page -
 A list of what is currently conisdered the top five golf courses in Ireland.
 
-![Top 5 Courses](/workspace/Portfolio_1_Project/assets/readme-images/top-5-courses.jpg)
+![Top 5 Courses](/assets/readme-images/top-5-courses.jpg)
 A screenshot of what are considered the top 5 courses available in Ireland.
 
 #### Third Page -
 A newsletter sign up page so that people can be kept informed of the latest list of courses and any offers that might be available through the clubs.
 
-![Newsletter](/workspace/Portfolio_1_Project/assets/readme-images/newsletter.jpg)
+![Newsletter](/assets/readme-images/newsletter.jpg)
 A screenshot of the newsletter sign up sheet to keep updated on what are the most popular golf courses.
 
 ## Issues:
@@ -124,12 +124,12 @@ Outcome - , was removed.
 
 #### Lighthouse test - Results
 Inital testing of website gave the following results - 
-![Lighthouse](/workspace/Portfolio_1_Project/assets/readme-images/Lighthouse-test-1.jpg)
+![Lighthouse](/assets/readme-images/Lighthouse-test-1.jpg)
 
 Test was run incognito. Results outlined that images were taking too long to load and it was suggested to change them over to webp or compress the images.
 
 Second test gave the following results - 
-![Lighthouse Test No2](/workspace/Portfolio_1_Project/assets/readme-images/lighthouse-test-2.jpg)
+![Lighthouse Test No2](/assets/readme-images/lighthouse-test-2.jpg)
   
 Second Test run incognito.  Images were changed to webp versions which was the main problem for the performance of the first test.
 
