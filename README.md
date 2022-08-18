@@ -175,6 +175,9 @@ The website was viewed on a variety of devices such as Desktop, Laptop, iPhone 6
 A large amount of testing was done to ensure that all pages were linking correctly.
 Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
+### Known Bug
+The hamburger menu style implements when looking at it from a device screen of less than 450px however for some reason the drop-down list of items will not appear.   Tried to figure out the bug but couldn't.
+
 ## Deployment
 GitHub Pages
 The project was deployed to GitHub Pages using the following steps...
