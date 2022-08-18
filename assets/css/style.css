@@ -466,7 +466,7 @@ hr {
     grid-template-columns: 100%;
     padding: 5px;
     gap: 5px;
-    margin: 0, auto;
+    margin: 0 auto;
 }
 
 .course-image-1, .course-image-2, .course-image-3, .course-image-4, .course-image-5 {
