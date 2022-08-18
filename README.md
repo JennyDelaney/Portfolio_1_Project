@@ -33,7 +33,7 @@ All images are golf related and reflect the great scenery that is given to every
 
 - #### Wireframe -
 
-![Wireframe Images]()
+![Wireframe Images](https://github.com/JennyDelaney/Portfolio_1_Project/blob/main/assets/images/Wireframe-image.jpg)
 
 - #### Main Page -  ** still needs to be completed **
 - Navigation bar
