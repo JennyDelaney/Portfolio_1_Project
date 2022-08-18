@@ -239,7 +239,7 @@ footer {
 }
 
 .course-image-1 {
-  background: url(/assets/images/ballybunion-old-golf-course.webp);
+  background: url(../images/ballybunion-old-golf-course.webp);
   background-size: cover;
   background-color: #50a149;
   box-shadow: 0.25rem 0.25rem 0.6rem;
@@ -248,7 +248,7 @@ footer {
 }
 
 .course-image-2 {
-  background: url(/assets/images/lahinch-old-golf-course.webp);
+  background: url(../images/lahinch-old-golf-course.webp);
   background-size: cover;
   background-color: #50a149;
   box-shadow: 0.25rem 0.25rem 0.6rem;
@@ -293,7 +293,7 @@ footer {
 }
 
 .course-image-3 {
-  background: url(/assets/images/rosapenna-st-patricks.webp);
+  background: url(../images/rosapenna-st-patricks.webp);
   background-size: cover;
   background-color: #50a149;
   box-shadow: 0.25rem 0.25rem 0.6rem;
@@ -301,7 +301,7 @@ footer {
   position: relative;
 }
 .course-image-4 {
-  background: url(/assets/images/portmarnock-championship-golf-course.webp);
+  background: url(../images/portmarnock-championship-golf-course.webp);
   background-size: cover;
   background-color: #50a149;
   box-shadow: 0.25rem 0.25rem 0.6rem;
@@ -310,7 +310,7 @@ footer {
 }
 
 .course-image-5 {
-  background: url(/assets/images/european-club-golf-course.webp);
+  background: url(../images/european-club-golf-course.webp);
   background-size: cover;
   background-color: #50a149;
   box-shadow: 0.25rem 0.25rem 0.6rem;
@@ -322,7 +322,7 @@ footer {
 
 .form-section {
   overflow: hidden;
-  background: url(/assets/images/newsletter-background.webp);
+  background: url(../images/newsletter-background.webp);
   background-position: center;
   height: 750px;
   width: 100%;
