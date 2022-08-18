@@ -1,523 +1,535 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rubik:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rubik:wght@300&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    border: none;
+  margin: 0;
+  padding: 0;
+  border: none;
 }
 
 body {
-    font-family: rubik, sans-serif;
-    font-weight: 300;
-    color: black;
+  font-family: rubik, sans-serif;
+  font-weight: 300;
+  color: black;
 }
 
 /* headings and logo */
 
-h1, h2 {
-    font-family: rubik, sans-serif;
-    letter-spacing: 4px;
-    color: black;
+h1,
+h2 {
+  font-family: rubik, sans-serif;
+  letter-spacing: 4px;
+  color: black;
 }
 
 .logo {
-    float: left;
-    font-size: 280%;
-    margin-left: 30px;
+  float: left;
+  font-size: 280%;
+  margin-left: 30px;
 }
 
 /* Navigation list */
 
 .menu {
-    font-size: 120%;
-    letter-spacing: 4px;
-    display: flex;
-    float: right;
+  font-size: 120%;
+  letter-spacing: 4px;
+  display: flex;
+  float: right;
 }
 
-.menu, .logo {
-    line-height: 75px;
+.menu,
+.logo {
+  line-height: 75px;
 }
 
 .menu li {
-    float: right;
-    list-style-type: none;
-    margin-right: 20px;
+  float: right;
+  list-style-type: none;
+  margin-right: 20px;
 }
 
 .menu a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 .menu a:hover {
-    border-bottom: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
-.hamnav label, #hamburger {
-    display: none;
+.hamnav label,
+#hamburger {
+  display: none;
 }
 
 .active {
-    border-bottom: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 /* hero image */
 
 .hero-outer {
-    height: 600px;
-    width: 100%;
-    overflow: hidden;
+  height: 600px;
+  width: 100%;
+  overflow: hidden;
 }
 
 .hero-image {
-    height: 600px;
-    width: 100%;
-    background: url(../images/hero-image.webp) no-repeat center center;
-    background-size: cover;
+  height: 600px;
+  width: 100%;
+  background: url(../images/hero-image.webp) no-repeat center center;
+  background-size: cover;
 
-    /* animation zoom effect on loading page */
-    animation-name: hero-zoom;
-    animation-duration: 5s;
-    animation-fill-mode: forwards;
+  /* animation zoom effect on loading page */
+  animation-name: hero-zoom;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
 }
 
 /* creates the level of zoom for hero image */
 @keyframes hero-zoom {
-    from{
-        transform: scale(1);
-    }
-    to {
-        transform: scale(1.1);
-    }
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
 }
 
 /* Golf-Course setup and image */
 
 .golf-course-outer {
-    height: 500px;
-    width: 100%;
-    overflow: hidden;
+  height: 500px;
+  width: 100%;
+  overflow: hidden;
 }
 
 .golf-course-outer h2 {
-    text-align: center;
-    margin: 20px 0;
-    font-size: 280%;
+  text-align: center;
+  margin: 20px 0;
+  font-size: 280%;
 }
 
 .left-golf-course {
-    padding-top: 15px;
-    width: 33%;
-    float: left; 
+  padding-top: 15px;
+  width: 33%;
+  float: left;
 }
 
 .right-golf-course {
-    padding-top: 15px;
-    width: 33%;
-    float: right;
+  padding-top: 15px;
+  width: 33%;
+  float: right;
 }
 
 .center-golf-course {
-    width: 33%;
-    margin: 0 auto;
+  width: 33%;
+  margin: 0 auto;
 }
 
 hr {
-    border-top: 1px solid black;
-    width: 100%;
-    margin: 5px 0;
+  border-top: 1px solid black;
+  width: 100%;
+  margin: 5px 0;
 }
 
 .left-golf-course-heading {
-    width: 60%;
-    float: right;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 20px;
+  width: 60%;
+  float: right;
+  line-height: 20px;
+  clear: both;
+  margin-bottom: 20px;
 }
 
 .right-golf-course-heading {
-    width: 60%;
-    float: left;
-    line-height: 20px;
-    clear: both;
-    margin-bottom: 20px;
+  width: 60%;
+  float: left;
+  line-height: 20px;
+  clear: both;
+  margin-bottom: 20px;
 }
 
 .right-golf-course-heading h3 {
-    text-align: right;
+  text-align: right;
 }
 
 .right-golf-course-heading p {
-    text-align: right;
+  text-align: right;
 }
 
 .square-container {
-    width: 300px;
-    height: 300px;
-    padding: 30px;
-    border-style: solid;
-    border-color: #ccc;
-    border-width: 1px;
-    margin: 0 auto;
+  width: 300px;
+  height: 300px;
+  padding: 30px;
+  border-style: solid;
+  border-color: #ccc;
+  border-width: 1px;
+  margin: 0 auto;
 }
 
 .square-cover-bg {
-    background: url(../images/Golf_Courses_around_Ireland.jpg) no-repeat center center;
-    height: 100%;
+  background: url(../images/Golf_Courses_around_Ireland.jpg) no-repeat center
+    center;
+  height: 100%;
 }
 
 /* Why Choose Ireland */
 
 .why-ireland {
-    background-image: url(../images/Why-choose-ireland-background.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 600px;
-    overflow: hidden;
+  background-image: url(../images/Why-choose-ireland-background.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
 }
 
 .why-ireland-text {
-    width: 50%;
-    float: left;
-    margin: 50px;
-    color: #50a149;
-    font-weight: 600;
-    padding: 20px;
-    letter-spacing: 4px;
-    background-color:rgba(237, 243, 236, 0.8)
+  width: 50%;
+  float: left;
+  margin: 50px;
+  color: #50a149;
+  font-weight: 600;
+  padding: 20px;
+  letter-spacing: 4px;
+  background-color: rgba(237, 243, 236, 0.8);
 }
 
 .why-ireland-text h2 {
-    color: #50a149;
-    font-weight: bold;
-    padding: 5px;
-    margin-bottom: 25px;
-    text-align: center;
+  color: #50a149;
+  font-weight: bold;
+  padding: 5px;
+  margin-bottom: 25px;
+  text-align: center;
 }
 
 /* footer */
 
 footer {
-    height: 150px;
+  height: 150px;
 }
 
 .social {
-    text-align: center;
+  text-align: center;
 }
 
 .social > li {
-    display: inline;
+  display: inline;
 }
 
 .social i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color: black;
+  font-size: 160%;
+  margin: 1%;
+  padding: 5%;
+  color: black;
 }
 
 /* top 5 courses */
 
 .box-container-top {
-    width: 100%;
-    overflow: hidden;
-    background-color: white;
-    display: grid;
-    margin-right: 5px;
-    grid-template-rows: 375px;
-    grid-template-columns: 50% 50%;
-    padding: 10px;
-    text-align: center;
-    gap: 15px;
+  width: 100%;
+  overflow: hidden;
+  background-color: white;
+  display: grid;
+  margin-right: 5px;
+  grid-template-rows: 375px;
+  grid-template-columns: 50% 50%;
+  padding: 10px;
+  text-align: center;
+  gap: 15px;
 }
 
 .course-image-1 {
-    background: url(/assets/images/ballybunion-old-golf-course.webp);
-    background-size: cover;
-    background-color: #50a149;
-    box-shadow: 0.25rem 0.25rem 0.6rem;
-    padding: 15px;
-    position: relative;
+  background: url(/assets/images/ballybunion-old-golf-course.webp);
+  background-size: cover;
+  background-color: #50a149;
+  box-shadow: 0.25rem 0.25rem 0.6rem;
+  padding: 15px;
+  position: relative;
 }
 
 .course-image-2 {
-    background: url(/assets/images/lahinch-old-golf-course.webp);
-    background-size: cover;
-    background-color: #50a149;
-    box-shadow: 0.25rem 0.25rem 0.6rem;
-    padding: 15px;
-    position: relative;
+  background: url(/assets/images/lahinch-old-golf-course.webp);
+  background-size: cover;
+  background-color: #50a149;
+  box-shadow: 0.25rem 0.25rem 0.6rem;
+  padding: 15px;
+  position: relative;
 }
 
 .course-info {
-    height: 180px;
-    width: 300px;
-    position: absolute;
-    left: 50%;
-    bottom: 15px;
-    transform: translate(-50%, 0);
-    margin: 0 auto;
-    background-color: rgba(237, 243, 236, 0.4);
-    justify-content: center;
-    padding: 3px;
+  height: 180px;
+  width: 300px;
+  position: absolute;
+  left: 50%;
+  bottom: 15px;
+  transform: translate(-50%, 0);
+  margin: 0 auto;
+  background-color: rgba(237, 243, 236, 0.4);
+  justify-content: center;
+  padding: 3px;
 }
 
 .box-container-top h2 {
-    padding: 5px;
-    text-decoration: underline;
+  padding: 5px;
+  text-decoration: underline;
 }
 
 .box-container-bottom {
-    width: 100%;
-    overflow: hidden;
-    background-color: white;
-    display: grid;
-    margin-right: 15px;
-    grid-template-rows: 375px;
-    grid-template-columns: 33% 33% 33%;
-    padding: 10px;
-    text-align: center;
-    gap: 15px;
+  width: 100%;
+  overflow: hidden;
+  background-color: white;
+  display: grid;
+  margin-right: 15px;
+  grid-template-rows: 375px;
+  grid-template-columns: 33% 33% 33%;
+  padding: 10px;
+  text-align: center;
+  gap: 15px;
 }
 
 .box-container-bottom h2 {
-    padding: 5px;
-    text-decoration: underline;
+  padding: 5px;
+  text-decoration: underline;
 }
 
 .course-image-3 {
-    background: url(/assets/images/rosapenna-st-patricks.webp);
-    background-size: cover;
-    background-color: #50a149;
-    box-shadow: 0.25rem 0.25rem 0.6rem;
-    padding: 15px;
-    position: relative;
+  background: url(/assets/images/rosapenna-st-patricks.webp);
+  background-size: cover;
+  background-color: #50a149;
+  box-shadow: 0.25rem 0.25rem 0.6rem;
+  padding: 15px;
+  position: relative;
 }
 .course-image-4 {
-    background: url(/assets/images/portmarnock-championship-golf-course.webp);
-    background-size: cover;
-    background-color: #50a149;
-    box-shadow: 0.25rem 0.25rem 0.6rem;
-    padding: 15px;
-    position: relative;
+  background: url(/assets/images/portmarnock-championship-golf-course.webp);
+  background-size: cover;
+  background-color: #50a149;
+  box-shadow: 0.25rem 0.25rem 0.6rem;
+  padding: 15px;
+  position: relative;
 }
 
 .course-image-5 {
-    background: url(/assets/images/european-club-golf-course.webp);
-    background-size: cover;
-    background-color: #50a149;
-    box-shadow: 0.25rem 0.25rem 0.6rem;
-    padding: 15px;
-    position: relative;
+  background: url(/assets/images/european-club-golf-course.webp);
+  background-size: cover;
+  background-color: #50a149;
+  box-shadow: 0.25rem 0.25rem 0.6rem;
+  padding: 15px;
+  position: relative;
 }
 
 /* Newsletter */
 
 .form-section {
-    overflow: hidden;
-    background: url(/assets/images/newsletter-background.webp);
-    background-position: center;
-    height: 750px;
-    width: 100%;
+  overflow: hidden;
+  background: url(/assets/images/newsletter-background.webp);
+  background-position: center;
+  height: 750px;
+  width: 100%;
 }
 
 .newsletter-form {
-    margin: 75px 10% 0 0;
-    color: #fff;
-    background-color: rgba(60, 60, 60, 0.6);
-    max-width: 400px;
-    position: absolute;
-    right: 10%;
-    padding: 30px;
-    box-shadow: 0.25rem 0.25rem 0.6rem;
+  margin: 75px 10% 0 0;
+  color: #fff;
+  background-color: rgba(60, 60, 60, 0.6);
+  max-width: 400px;
+  position: absolute;
+  right: 10%;
+  padding: 30px;
+  box-shadow: 0.25rem 0.25rem 0.6rem;
 }
 
 .newsletter-form > h2 {
-    color: #fafafa;
-    margin-bottom: 20px;
+  color: #fafafa;
+  margin-bottom: 20px;
 }
 
 .text-input {
-    background: transparent;
-    color: #fafafa;
-    width: 100%;
-    height: 25px;
-    margin: 5px 0 20px 0;
-    border: 1px solid #fafafa;
-    border-radius: 2px;
+  background: transparent;
+  color: #fafafa;
+  width: 100%;
+  height: 25px;
+  margin: 5px 0 20px 0;
+  border: 1px solid #fafafa;
+  border-radius: 2px;
 }
 
 .text-input:hover {
-    border-color: #50a149;
+  border-color: #50a149;
 }
 
 .course-favourite {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: flex-end;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
 }
 
 .join-button {
-    margin-top: 20px;
-    border-radius: 2px;
-    padding: 15px 32px 15px 32px;
-    text-align: center;
-    font-size: 100%;
-    background-color: #50a149;
-    color: #fafafa;
-    display: block;
+  margin-top: 20px;
+  border-radius: 2px;
+  padding: 15px 32px 15px 32px;
+  text-align: center;
+  font-size: 100%;
+  background-color: #50a149;
+  color: #fafafa;
+  display: block;
 }
 
 .join-button:hover {
-    background-color: #fafafa;
-    color: #50a149;
+  background-color: #fafafa;
+  color: #50a149;
 }
 
 /* Media queries */
 
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
-    
-    .menu {
+  .menu {
     clear: left;
     float: left;
     margin-left: 15px;
     margin-bottom: 20px;
     line-height: 25px;
     letter-spacing: 2px;
-}
+  }
 
-    .golf-course-outer {
+  .golf-course-outer {
     width: 65%;
     height: 100%;
     margin: 0 auto;
     float: none;
     padding-bottom: 30px;
-}
+  }
 
-.golf-course-outer h2 {
+  .golf-course-outer h2 {
     padding: 15px 0;
     margin: 0;
-}
+  }
 
-.left-golf-course, .right-golf-course {
+  .left-golf-course,
+  .right-golf-course {
     width: 100%;
     padding: 0;
-}
+  }
 
-.square-container {
+  .square-container {
     clear: both;
     width: 100%;
     float: left;
     padding: 0;
     border: none;
-}
+  }
 
-hr {
+  hr {
     display: none;
-}
+  }
 }
 
 /* For medium screen sizes from 950px wide and down */
 @media screen and (max-width: 950px) {
-
-.golf-course-outer {
+  .golf-course-outer {
     width: 90%;
     height: 100%;
     margin: 0 auto;
     float: none;
     padding-bottom: 30px;
-}
+  }
 
-.left-golf-course, .right-golf-course {
+  .left-golf-course,
+  .right-golf-course {
     display: flex;
     flex-direction: column;
     align-content: center;
     justify-content: center;
-}
+  }
 
-.left-golf-course-heading, .right-golf-course-heading {
+  .left-golf-course-heading,
+  .right-golf-course-heading {
     width: 100%;
-}
+  }
 
-.left-golf-course h3, .right-golf-course h3 {
+  .left-golf-course h3,
+  .right-golf-course h3 {
     width: 100%;
     text-align: center;
-}
+  }
 
-.left-golf-course p, .right-golf-course p {
+  .left-golf-course p,
+  .right-golf-course p {
     text-align: center;
     padding: 0 20px;
-}
+  }
 
-.center-golf-course {
+  .center-golf-course {
     width: 100%;
-}
-.square-container {
+  }
+  .square-container {
     padding: 0;
     margin: 0 auto;
-}
+  }
 
-.box-container-top, .box-container-bottom {
+  .box-container-top,
+  .box-container-bottom {
     grid-template-columns: 100%;
     padding: 5px;
     margin: 0 auto;
-}
+  }
 
-.course-image-1, .course-image-2, .course-image-3, .course-image-4, .course-image-5 {
+  .course-image-1,
+  .course-image-2,
+  .course-image-3,
+  .course-image-4,
+  .course-image-5 {
     height: 380px;
     width: 100%;
     margin: 0 auto;
     gap: 5px;
     padding: 5px;
-}
+  }
 
-.why-ireland {
+  .why-ireland {
     height: 100%;
-}
+  }
 
-.newsletter-form {
+  .newsletter-form {
     margin-left: 30px;
     margin-right: 15px;
-}
+  }
 }
 
 /* For medium screen sizes from 400px wide and down */
 @media screen and (max-width: 400px) {
-
-.logo {
+  .logo {
     letter-spacing: 2px;
-}
+  }
 
-.menu {
+  .menu {
     display: block;
     float: right;
-}
+  }
 
-.menu a {
+  .menu a {
     box-sizing: border-box;
     display: block;
     width: 100%;
     border-top: 1px solid #333;
-}
+  }
 
-.hamnav label {
+  .hamnav label {
     display: inline-block;
     color: white;
     background: #50a149;
     font-style: normal;
     font-size: 1.2em;
     padding: 10px;
-}
+  }
 
-.menu {
+  .menu {
     display: none;
-}
+  }
 
-.hamnav input:checked ~ menu {display: block;}
-
+  .hamnav input:checked ~ menu {
+    display: block;
+  }
 }
