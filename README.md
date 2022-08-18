@@ -1,6 +1,6 @@
 # Top Golf Ireland
 
-#### Link to live project: https://jennydelaney.github.io/Portfolio_1_Project/Link
+#### Link to live project: 
 
 Top Golf Ireland is a site that gives a list of what is considered Ireland's top 5 golf courses.  It outlines some of the reasons as to why someone should pick Ireland for their next golfing holiday as well as what Ireland has to offer in the types of courses.  It is a list of courses that someone should try and get to play if they get the opportunity.
 
