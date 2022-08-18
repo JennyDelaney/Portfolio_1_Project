@@ -1,10 +1,10 @@
 # Top Golf Ireland
 
-#### Link to live project: 
+#### Link to live project: https://jennydelaney.github.io/Portfolio_1_Project/Link
 
 Top Golf Ireland is a site that gives a list of what is considered Ireland's top 5 golf courses.  It outlines some of the reasons as to why someone should pick Ireland for their next golfing holiday as well as what Ireland has to offer in the types of courses.  It is a list of courses that someone should try and get to play if they get the opportunity.
 
-** Image of common screen sizes **
+![Common Screen Sizes](https://github.com/JennyDelaney/Portfolio_1_Project/blob/main/assets/images/common-screen-sizes.jpg)
 
 # User Experience (UX)
 ## -  User stories
@@ -33,7 +33,7 @@ All images are golf related and reflect the great scenery that is given to every
 
 - #### Wireframe -
 
-** Image of wireframe outline
+![Wireframe Images](https://github.com/JennyDelaney/Portfolio_1_Project/blob/main/assets/images/Wireframe-image.jpg)
 
 - #### Main Page -  ** still needs to be completed **
 - Navigation bar
@@ -176,9 +176,9 @@ To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
 Open Git Bash
 Change the current working directory to the location where you want the cloned directory to be made.
 Type git clone, and then paste the URL you copied in Step 3.
-$ git clone  
+$ git clone  https://github.com/JennyDelaney/Portfolio_1_Project
 Press Enter. Your local clone will be created.
-$ git clone  
+$ git clone  https://jennydelaney.github.io/Portfolio_1_Project/
 > Cloning into `CI-Clone`...
 > remote: Counting objects: 10, done.
 > remote: Compressing objects: 100% (8/8), done.
