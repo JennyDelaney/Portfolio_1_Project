@@ -465,7 +465,6 @@ hr {
 .box-container-top, .box-container-bottom {
     grid-template-columns: 100%;
     padding: 5px;
-    gap: 5px;
     margin: 0 auto;
 }
 
@@ -490,8 +489,13 @@ hr {
 /* For medium screen sizes from 400px wide and down */
 @media screen and (max-width: 400px) {
 
+.logo {
+    letter-spacing: 2px;
+}
+
 .menu {
     display: block;
+    float: right;
 }
 
 .menu a {
